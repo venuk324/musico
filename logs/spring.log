@@ -598,3 +598,193 @@ com.sedmelluq.discord.lavaplayer.tools.FriendlyException: null
 2021-05-08 17:54:33.189  INFO 900 --- [XNIO-1 task-13] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
 2021-05-08 18:12:58.071  INFO 900 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:65058 -- CloseStatus[code=1006, reason=]
 2021-05-08 18:12:58.072  INFO 900 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-05-08 18:46:18.112  INFO 900 --- [XNIO-1 task-14] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:53476
+2021-05-08 18:46:18.119  INFO 900 --- [XNIO-1 task-14] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-05-08 18:57:16.460  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:53476 -- CloseStatus[code=1006, reason=]
+2021-05-08 18:57:16.465  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-05-08 18:57:28.297  INFO 900 --- [XNIO-1 task-15] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:54852
+2021-05-08 18:57:28.322  INFO 900 --- [XNIO-1 task-15] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-05-08 19:05:47.082  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"840197274848198696","volume":50}
+2021-05-08 19:05:47.084  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"840197274848198696","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-05-08 19:05:47.085  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"840197274848198696","volume":100}
+2021-05-08 19:05:47.087  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"840197274848198696"}
+2021-05-08 19:05:47.146  INFO 900 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:KABIRA ENCORE"
+2021-05-08 19:05:47.689  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"f73641eb80e7bb7efb6242da4ab143ca","op":"voiceUpdate","guildId":"840197274848198696","event":{"token":"fe73eef0b5c95a77","guild_id":"840197274848198696","endpoint":"india2469.discord.media:443"}}
+2021-05-08 19:05:48.079  INFO 900 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: KABIRA ENCORE
+2021-05-08 19:05:48.108  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"840197274848198696","track":"QAAAtQIASUthYmlyYSBFbmNvcmUgLSBZZWggSmF3YWFuaSBIYWkgRGVld2FuaSB8IFJhbmJpciBLYXBvb3IsIERlZXBpa2EgUGFkdWtvbmUAEkRoYXJtYSBQcm9kdWN0aW9ucwAAAAAAAfAYAAt0YS1XMTZ1dzd6ZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXRhLVcxNnV3N3pnAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-05-08 19:05:48.556  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"f73641eb80e7bb7efb6242da4ab143ca","op":"voiceUpdate","guildId":"840197274848198696","event":{"token":"fe73eef0b5c95a77","guild_id":"840197274848198696","endpoint":"india2469.discord.media:443"}}
+2021-05-08 19:06:23.762  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"840197274848198696","volume":90}
+2021-05-08 19:06:30.380  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"840197274848198696","volume":0}
+2021-05-08 19:06:33.846  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"840197274848198696","volume":50}
+2021-05-08 19:06:53.291  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"840197274848198696","pause":true}
+2021-05-08 19:06:53.293  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"840197274848198696"}
+2021-05-08 19:12:46.408  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:54852 -- CloseStatus[code=1006, reason=]
+2021-05-08 19:12:46.409  INFO 900 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-05-08 19:13:00.419  INFO 900 --- [XNIO-1 task-18] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:56393
+2021-05-08 19:13:00.427  INFO 900 --- [XNIO-1 task-18] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-05-08 19:32:19.143  INFO 900 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:56393 -- CloseStatus[code=1006, reason=]
+2021-05-08 19:32:19.143  INFO 900 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-05-08 19:32:48.960  INFO 900 --- [XNIO-1 task-19] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58045
+2021-05-08 19:32:48.969  INFO 900 --- [XNIO-1 task-19] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-05-08 19:35:16.528  INFO 900 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"840197274848198696","volume":50}
+2021-05-08 19:35:16.529  INFO 900 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"840197274848198696","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-05-08 19:35:16.530  INFO 900 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"840197274848198696","volume":100}
+2021-05-08 19:35:16.531  INFO 900 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"840197274848198696"}
+2021-05-08 19:35:16.571  INFO 900 --- [XNIO-1 task-20] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:baby"
+2021-05-08 19:35:17.119  INFO 900 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"babf2d88ff9eec6d643ba0512b89c702","op":"voiceUpdate","guildId":"840197274848198696","event":{"token":"ff085d6e859249ab","guild_id":"840197274848198696","endpoint":"india8913.discord.media:443"}}
+2021-05-08 19:35:17.454  INFO 900 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: baby
+2021-05-08 19:35:17.466  INFO 900 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"840197274848198696","track":"QAAAnwIAOEp1c3RpbiBCaWViZXIgLSBCYWJ5IChPZmZpY2lhbCBNdXNpYyBWaWRlbykgZnQuIEx1ZGFjcmlzAA1KdXN0aW4gQmllYmVyAAAAAAADW2AAC2tmZmFjeGZBN0c0AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9a2ZmYWN4ZkE3RzQAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-05-08 19:35:17.946  INFO 900 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"babf2d88ff9eec6d643ba0512b89c702","op":"voiceUpdate","guildId":"840197274848198696","event":{"token":"ff085d6e859249ab","guild_id":"840197274848198696","endpoint":"india8913.discord.media:443"}}
+2021-05-08 19:35:30.059  INFO 900 --- [XNIO-1 task-22] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://youtube.com/playlist?list=PL9JkAVPqKUhxfysdTH3OeSXO_9eEbFZq0"
+2021-05-08 19:35:30.337 ERROR 900 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Load failed
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.DefaultYoutubePlaylistLoader.buildPlaylist(DefaultYoutubePlaylistLoader.java:63) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.DefaultYoutubePlaylistLoader.load(DefaultYoutubePlaylistLoader.java:49) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager$LoadingRoutes.playlist(YoutubeAudioSourceManager.java:240) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager$LoadingRoutes.playlist(YoutubeAudioSourceManager.java:228) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.DefaultYoutubeLinkRouter.routeFromMainDomain(DefaultYoutubeLinkRouter.java:70) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.DefaultYoutubeLinkRouter.route(DefaultYoutubeLinkRouter.java:42) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItemOnce(YoutubeAudioSourceManager.java:196) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItem(YoutubeAudioSourceManager.java:131) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:436) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:418) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:217) ~[lavaplayer-1.3.74.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+	Suppressed: com.sedmelluq.discord.lavaplayer.tools.exception.EnvironmentInformation: 
+  lavaplayer.version: 1.3.74
+  os.arch: amd64
+  os.name: Windows 10
+  os.version: 10.0
+  java.vendor: Oracle Corporation
+  java.version: 11.0.11
+  java.runtime.version: 11.0.11+9-LTS-194
+  java.vm.version: 11.0.11+9-LTS-194
+
+2021-05-08 19:35:30.338 ERROR 900 --- [lava-daemon-pool-info-loader-2-thread-1] l.server.player.AudioLoaderRestHandler   : Track loading failed
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.DefaultYoutubePlaylistLoader.buildPlaylist(DefaultYoutubePlaylistLoader.java:63) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.DefaultYoutubePlaylistLoader.load(DefaultYoutubePlaylistLoader.java:49) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager$LoadingRoutes.playlist(YoutubeAudioSourceManager.java:240) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager$LoadingRoutes.playlist(YoutubeAudioSourceManager.java:228) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.DefaultYoutubeLinkRouter.routeFromMainDomain(DefaultYoutubeLinkRouter.java:70) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.DefaultYoutubeLinkRouter.route(DefaultYoutubeLinkRouter.java:42) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItemOnce(YoutubeAudioSourceManager.java:196) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItem(YoutubeAudioSourceManager.java:131) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:436) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:418) ~[lavaplayer-1.3.74.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:217) ~[lavaplayer-1.3.74.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+	Suppressed: com.sedmelluq.discord.lavaplayer.tools.exception.EnvironmentInformation: 
+  lavaplayer.version: 1.3.74
+  os.arch: amd64
+  os.name: Windows 10
+  os.version: 10.0
+  java.vendor: Oracle Corporation
+  java.version: 11.0.11
+  java.runtime.version: 11.0.11+9-LTS-194
+  java.vm.version: 11.0.11+9-LTS-194
+
+2021-05-08 19:35:37.335  INFO 900 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"840197274848198696","pause":true}
+2021-05-08 19:35:37.336  INFO 900 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"840197274848198696"}
+2021-05-08 19:40:36.372  INFO 900 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58045 -- CloseStatus[code=1006, reason=]
+2021-05-08 19:40:36.372  INFO 900 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-05-08 19:40:45.189  INFO 900 --- [XNIO-1 task-24] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58755
+2021-05-08 19:40:45.193  INFO 900 --- [XNIO-1 task-24] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-05-08 19:42:54.655  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"839485417653141545","volume":50}
+2021-05-08 19:42:54.657  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"839485417653141545","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-05-08 19:42:54.659  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"839485417653141545","volume":100}
+2021-05-08 19:42:54.660  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"839485417653141545"}
+2021-05-08 19:42:54.715  INFO 900 --- [XNIO-1 task-25] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:baby"
+2021-05-08 19:42:55.290  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"a6b1992793a536746f60eb75c816d37e","op":"voiceUpdate","guildId":"839485417653141545","event":{"token":"2039679aa7630dba","guild_id":"839485417653141545","endpoint":"india5126.discord.media:443"}}
+2021-05-08 19:42:55.667  INFO 900 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: baby
+2021-05-08 19:42:55.706  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"839485417653141545","track":"QAAAnwIAOEp1c3RpbiBCaWViZXIgLSBCYWJ5IChPZmZpY2lhbCBNdXNpYyBWaWRlbykgZnQuIEx1ZGFjcmlzAA1KdXN0aW4gQmllYmVyAAAAAAADW2AAC2tmZmFjeGZBN0c0AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9a2ZmYWN4ZkE3RzQAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-05-08 19:42:56.083  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"a6b1992793a536746f60eb75c816d37e","op":"voiceUpdate","guildId":"839485417653141545","event":{"token":"2039679aa7630dba","guild_id":"839485417653141545","endpoint":"india5126.discord.media:443"}}
+2021-05-08 19:43:04.429  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"839485417653141545","pause":true}
+2021-05-08 19:43:04.431  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"839485417653141545"}
+2021-05-08 19:45:04.664  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"839485417653141545","volume":50}
+2021-05-08 19:45:04.665  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"839485417653141545","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-05-08 19:45:04.667  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"839485417653141545","volume":100}
+2021-05-08 19:45:04.668  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"839485417653141545"}
+2021-05-08 19:45:04.705  INFO 900 --- [XNIO-1 task-27] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:yemunave pillla"
+2021-05-08 19:45:05.262  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"a6b1992793a536746f60eb75c816d37e","op":"voiceUpdate","guildId":"839485417653141545","event":{"token":"60a577dcb277c448","guild_id":"839485417653141545","endpoint":"india2399.discord.media:443"}}
+2021-05-08 19:45:05.374  INFO 900 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: yemunave pillla
+2021-05-08 19:45:05.417  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"839485417653141545","track":"QAAAyAIAYVllbXVubmF2ZSBQaWxsYSBWaWRlbyBTb25nIHwgTmFsbGFtYWxhIE1vdmllIHwgU2lkIFNyaXJhbSB8IFAuUiB8IFJhdmlDaGFyYW4gfCBSTSB8IE1hZGh1cmEgQXVkaW8ADU1hZGh1cmEgQXVkaW8AAAAAAAQS+AALMEs3SHBIUDJKazgAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0wSzdIcEhQMkprOAAHeW91dHViZQAAAAAAAAAA"}
+2021-05-08 19:45:06.411  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"a6b1992793a536746f60eb75c816d37e","op":"voiceUpdate","guildId":"839485417653141545","event":{"token":"60a577dcb277c448","guild_id":"839485417653141545","endpoint":"india2399.discord.media:443"}}
+2021-05-08 19:45:27.669  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"839485417653141545","pause":true}
+2021-05-08 19:45:27.670  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"839485417653141545"}
+2021-05-08 19:47:54.133  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58755 -- CloseStatus[code=1006, reason=]
+2021-05-08 19:47:54.133  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-05-08 19:48:05.750  INFO 900 --- [XNIO-1 task-29] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59551
+2021-05-08 19:48:05.759  INFO 900 --- [XNIO-1 task-29] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-05-08 19:48:43.443  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"840197274848198696","volume":50}
+2021-05-08 19:48:43.444  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"840197274848198696","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-05-08 19:48:43.449  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"840197274848198696","volume":100}
+2021-05-08 19:48:43.450  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"840197274848198696"}
+2021-05-08 19:48:43.492  INFO 900 --- [XNIO-1 task-30] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:baby"
+2021-05-08 19:48:44.054  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"50eb26ed200a1b7822ddadb580af2da1","op":"voiceUpdate","guildId":"840197274848198696","event":{"token":"d4d7e96fd0a150fd","guild_id":"840197274848198696","endpoint":"india6099.discord.media:443"}}
+2021-05-08 19:48:44.247  INFO 900 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: baby
+2021-05-08 19:48:44.262  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"840197274848198696","track":"QAAAnwIAOEp1c3RpbiBCaWViZXIgLSBCYWJ5IChPZmZpY2lhbCBNdXNpYyBWaWRlbykgZnQuIEx1ZGFjcmlzAA1KdXN0aW4gQmllYmVyAAAAAAADW2AAC2tmZmFjeGZBN0c0AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9a2ZmYWN4ZkE3RzQAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-05-08 19:48:44.909  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"50eb26ed200a1b7822ddadb580af2da1","op":"voiceUpdate","guildId":"840197274848198696","event":{"token":"d4d7e96fd0a150fd","guild_id":"840197274848198696","endpoint":"india6099.discord.media:443"}}
+2021-05-08 19:48:57.199  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"840197274848198696","pause":true}
+2021-05-08 19:48:57.200  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"840197274848198696"}
+2021-05-08 19:57:09.067  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:59551 -- CloseStatus[code=1006, reason=]
+2021-05-08 19:57:09.068  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-05-08 19:57:23.093  INFO 900 --- [XNIO-1 task-32] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60643
+2021-05-08 19:57:23.100  INFO 900 --- [XNIO-1 task-32] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-05-08 19:57:52.101  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"840197274848198696","volume":50}
+2021-05-08 19:57:52.102  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"840197274848198696","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-05-08 19:57:52.111  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"840197274848198696","volume":100}
+2021-05-08 19:57:52.112  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"840197274848198696"}
+2021-05-08 19:57:52.128  INFO 900 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:baby"
+2021-05-08 19:57:52.702  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"2ac337528e49a2bd4d1d33a8d74b8823","op":"voiceUpdate","guildId":"840197274848198696","event":{"token":"152ddc6fe67cf523","guild_id":"840197274848198696","endpoint":"india6099.discord.media:443"}}
+2021-05-08 19:57:53.152  INFO 900 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: baby
+2021-05-08 19:57:53.164  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"840197274848198696","track":"QAAAnwIAOEp1c3RpbiBCaWViZXIgLSBCYWJ5IChPZmZpY2lhbCBNdXNpYyBWaWRlbykgZnQuIEx1ZGFjcmlzAA1KdXN0aW4gQmllYmVyAAAAAAADW2AAC2tmZmFjeGZBN0c0AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9a2ZmYWN4ZkE3RzQAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-05-08 19:57:53.569  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"2ac337528e49a2bd4d1d33a8d74b8823","op":"voiceUpdate","guildId":"840197274848198696","event":{"token":"152ddc6fe67cf523","guild_id":"840197274848198696","endpoint":"india6099.discord.media:443"}}
+2021-05-08 19:58:14.011  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"840197274848198696","pause":true}
+2021-05-08 19:58:14.012  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"840197274848198696"}
+2021-05-08 20:00:11.256  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"840197274848198696","volume":50}
+2021-05-08 20:00:11.257  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"840197274848198696","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-05-08 20:00:11.258  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"840197274848198696","volume":100}
+2021-05-08 20:00:11.259  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"840197274848198696"}
+2021-05-08 20:00:11.265  INFO 900 --- [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:baby"
+2021-05-08 20:00:11.853  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"2ac337528e49a2bd4d1d33a8d74b8823","op":"voiceUpdate","guildId":"840197274848198696","event":{"token":"0d6a6606fcac20d8","guild_id":"840197274848198696","endpoint":"india8913.discord.media:443"}}
+2021-05-08 20:00:12.081  INFO 900 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: baby
+2021-05-08 20:00:12.124  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"840197274848198696","track":"QAAAnwIAOEp1c3RpbiBCaWViZXIgLSBCYWJ5IChPZmZpY2lhbCBNdXNpYyBWaWRlbykgZnQuIEx1ZGFjcmlzAA1KdXN0aW4gQmllYmVyAAAAAAADW2AAC2tmZmFjeGZBN0c0AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9a2ZmYWN4ZkE3RzQAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-05-08 20:00:12.670  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"2ac337528e49a2bd4d1d33a8d74b8823","op":"voiceUpdate","guildId":"840197274848198696","event":{"token":"0d6a6606fcac20d8","guild_id":"840197274848198696","endpoint":"india8913.discord.media:443"}}
+2021-05-08 20:00:20.622  INFO 900 --- [XNIO-1 task-5] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:kabira"
+2021-05-08 20:00:21.897  INFO 900 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kabira
+2021-05-08 20:00:59.276  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"840197274848198696","pause":true}
+2021-05-08 20:00:59.277  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"840197274848198696"}
+2021-05-08 20:13:12.194  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60643 -- CloseStatus[code=1006, reason=]
+2021-05-08 20:13:12.196  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-05-08 20:39:19.714  INFO 900 --- [XNIO-1 task-7] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:49327
+2021-05-08 20:39:19.724  INFO 900 --- [XNIO-1 task-7] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-05-08 20:39:44.872  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"840197274848198696","volume":50}
+2021-05-08 20:39:44.873  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"840197274848198696","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-05-08 20:39:44.879  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"840197274848198696","volume":100}
+2021-05-08 20:39:44.882  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"840197274848198696"}
+2021-05-08 20:39:44.898  INFO 900 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:baby"
+2021-05-08 20:39:45.591  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"b618db6864a74958eaa7e49cb0e60449","op":"voiceUpdate","guildId":"840197274848198696","event":{"token":"bef1c5f24ff9ffdc","guild_id":"840197274848198696","endpoint":"india9473.discord.media:443"}}
+2021-05-08 20:39:45.857  INFO 900 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: baby
+2021-05-08 20:39:45.869  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"840197274848198696","track":"QAAAnwIAOEp1c3RpbiBCaWViZXIgLSBCYWJ5IChPZmZpY2lhbCBNdXNpYyBWaWRlbykgZnQuIEx1ZGFjcmlzAA1KdXN0aW4gQmllYmVyAAAAAAADW2AAC2tmZmFjeGZBN0c0AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9a2ZmYWN4ZkE3RzQAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-05-08 20:39:46.294  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"b618db6864a74958eaa7e49cb0e60449","op":"voiceUpdate","guildId":"840197274848198696","event":{"token":"bef1c5f24ff9ffdc","guild_id":"840197274848198696","endpoint":"india9473.discord.media:443"}}
+2021-05-08 20:40:02.898  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"840197274848198696","pause":true}
+2021-05-08 20:40:02.899  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"840197274848198696"}
+2021-05-08 21:07:13.842  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:49327 -- CloseStatus[code=1006, reason=]
+2021-05-08 21:07:13.843  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-05-08 21:07:21.211  INFO 900 --- [XNIO-1 task-10] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:54271
+2021-05-08 21:07:21.230  INFO 900 --- [XNIO-1 task-10] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-05-08 21:08:04.407  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:54271 -- CloseStatus[code=1006, reason=]
+2021-05-08 21:08:04.407  INFO 900 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-05-08 21:08:13.325  INFO 900 --- [XNIO-1 task-11] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:54358
+2021-05-08 21:08:13.330  INFO 900 --- [XNIO-1 task-11] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-05-08 21:08:33.281  INFO 900 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:54358 -- CloseStatus[code=1006, reason=]
+2021-05-08 21:08:33.281  INFO 900 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.

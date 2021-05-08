@@ -538,15 +538,14 @@ async function edit_request_message_track_info(client, player, track, type) {
       let embed2 = new MessageEmbed()
         .setColor(ee.color)
         .setFooter(`Prefix for this Server is:   ${client.settings.get(track_info_msg.guild.id, "prefix")}`, ee.footericon)
-        .setTitle("Lava Music | Music Queue")
-        .setImage("https://cdn.discordapp.com/attachments/752548978259787806/820014471556759601/ezgif-1-2d764d377842.gif")
+        .setTitle("MUSICO | Music Queue")
         .setDescription(`Empty\nJoin a voice channel and queue songs by name or url in here.`)
       let embed3 = new MessageEmbed()
         .setColor(ee.color)
         .setFooter(ee.footertext, ee.footericon)
         .setTitle("Lava Music | Currently no song is playing!")
-        .setDescription(`> Join a voice channel and enter a song name or url to play.\n\n[Invite Lava Music](https://lava.milrato.eu) • [Support Server](https://discord.com/invite/wvCp7q88G3) • [Website](https://milrato.eu)`)
-        .setImage("https://cdn.discordapp.com/attachments/754700756170440774/812443980293603329/lavamusic.gif")
+        .setDescription(`Join a voice channel and enter a song name or url to play.\n[Invite MUSICO](https://discord.com/api/oauth2/authorize?client_id=838090972109340723&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3D838090972109340723%26permissions%3D2184703296%26scope%3Dbot&scope=bot) • [Support Server](https://discord.gg/cupqErmBgt)`)
+        .setImage("https://cdn.discordapp.com/attachments/840204280652890183/840561772825018438/standard_2.gif")
       track_info_msg.edit(embed3).catch(e => console.log("Couldn't delete msg, this is for preventing a bug".gray));
       queue_info_msg.edit(embed2).catch(e => console.log("Couldn't delete msg, this is for preventing a bug".gray));
     }
@@ -598,7 +597,7 @@ async function edit_request_message_track_info(client, player, track, type) {
       if (!tracks.length) embed.setDescription(`No tracks in ${page > 1 ? `page ${page}` : "the queue"}.`);
       else embed.setDescription(tracks.map((track, i) => `**${start + ++i})** ${track.title.split("[").join("\[").split("]").join("\]").substr(0, 60)} [${track.isStream ? "LIVE STREAM" : format(track.duration).split(" | ")[0]}]\nby: ${track.requester}`).join("\n"));
    embed.setColor(ee.color);
-      embed.setImage("https://cdn.discordapp.com/attachments/752548978259787806/820014471556759601/ezgif-1-2d764d377842.gif");
+      embed.setImage("https://cdn.discordapp.com/attachments/840204280652890183/840561772825018438/standard_2.gif");
       embed.setFooter(ee.footertext, ee.footericon);
       return embed;
     }
@@ -621,7 +620,7 @@ async function edit_request_message_track_info(client, player, track, type) {
 async function edit_request_message_queue_info(client, player) {
   try {
     const queue = player.queue;
-    const embed = new MessageEmbed().setAuthor(`Lava Music | Music Queue`);
+    const embed = new MessageEmbed().setAuthor(`MUSICO | Music Queue`);
     const multiple = 15;
     const page = 1;
     const end = page * multiple;
@@ -631,7 +630,6 @@ async function edit_request_message_queue_info(client, player) {
     if (!tracks.length) embed.setDescription(`No tracks in ${page > 1 ? `page ${page}` : "the queue"}.`);
     else embed.setDescription(tracks.map((track, i) => `**${start + ++i})** ${track.title.split("[").join("\[").split("]").join("\]").substr(0, 60)} [${track.isStream ? "LIVE STREAM" : format(track.duration).split(" | ")[0]}]\nby: ${track.requester}`).join("\n"));
     embed.setColor(ee.color);
-    embed.setImage("https://cdn.discordapp.com/attachments/752548978259787806/820014471556759601/ezgif-1-2d764d377842.gif");
     embed.setFooter(ee.footertext, ee.footericon);
     embed;
     let message = player.get("message");

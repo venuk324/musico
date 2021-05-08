@@ -17,7 +17,7 @@ module.exports = {
       let isdj = false;
       let leftb = "";
       if (client.settings.get(message.guild.id, `djroles`).join("") === "")
-        leftb = "no Dj Roles, aka all Users are Djs  "
+        leftb = "NO CHANNELS, AKA ALL USERS ARE DJ  "
       else
         for (let i = 0; i < client.settings.get(message.guild.id, `djroles`).length; i++) {
           if (message.member.roles.cache.has(client.settings.get(message.guild.id, `djroles`)[i])) isdj = true;
@@ -44,12 +44,4 @@ module.exports = {
     }
   }
 }
-/**
- * @INFO
- * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
- * @INFO
- * Work for Milrato Development | https://milrato.eu
- * @INFO
- * Please mention Him / Milrato Development, when using this Code!
- * @INFO
- */
+

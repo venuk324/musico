@@ -15,7 +15,7 @@ module.exports = {
     try {
       //these lines creates the string for all botchannels
       let leftb = "";
-      if (client.settings.get(message.guild.id, `botchannel`).join("") === "") leftb = "no Channels, aka all Channels are Bot Channels"
+      if (client.settings.get(message.guild.id, `botchannel`).join("") === "") leftb = "NO CHANNELS, AKA ALL USERS ARE DJ"
       else
         for (let i = 0; i < client.settings.get(message.guild.id, `botchannel`).length; i++) {
           leftb += "<#" + client.settings.get(message.guild.id, `botchannel`)[i] + "> | "

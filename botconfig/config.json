@@ -1,5 +1,5 @@
 {
-   "token": "ODM4MDkwOTcyMTA5MzQwNzIz.YI2DCg.FixLQuCD2vd4MdHNVhtV1SDDP7Q",
+   "token": "ODM4MDkwOTcyMTA5MzQwNzIz.YI2DCg.GQKyKxUIP4aBMbjIHG7rZomavtk",
    "prefix": "!",
    "clientsettings": {
       "nodes": [
@@ -40,9 +40,8 @@
       "600357723695218688"
    ],
    "status": {
-      "text": "!HELP",
-      "type": "STREAMING",
-      "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
-      "url": ""
+      "text": "!HELP | DEVELOPED BY IMMORTAL#4416",
+      "type": "LISTENING",
+      "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING"
    }
 }

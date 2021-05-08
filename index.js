@@ -1,13 +1,4 @@
-﻿/**
-  * @INFO
-  * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
-  * @INFO
-  * Work for Milrato Development | https://milrato.eu
-  * @INFO
-  * Please mention Him / Milrato Development, when using this Code!
-  * @INFO
-*/
-//Importing all needed Commands
+﻿
 const Discord = require("discord.js"); //this is the official discord.js wrapper for the Discord Api, which we use!
 const colors = require("colors"); //this Package is used, to change the colors of our Console! (optional and doesnt effect performance)
 const Enmap = require("enmap"); //this package is our Database! We will use it to save the data for ever!
@@ -38,16 +29,6 @@ client.userProfiles = new Enmap({name: 'userProfiles', dataDir: "./databases/war
 
 //login into the bot
 client.login(require("./botconfig/config.json").token);
-/**
-  * @INFO
-  * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
-  * @INFO
-  * Work for Milrato Development | https://milrato.eu
-  * @INFO
-  * Please mention Him / Milrato Development, when using this Code!
-  * @INFO
-*/
-
 
 process.on('unhandledRejection', (reason, p) => {
   console.log('=== unhandled Rejection ==='.toUpperCase());

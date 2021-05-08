@@ -89,7 +89,7 @@ module.exports = {
                       let embed1 = new MessageEmbed()
                         .setColor(ee.color)
                         .setFooter(ee.footertext, ee.footericon)
-                        .setTitle("Lava Music | Request | Guide")
+                        .setTitle("MUSICO | Request | Guide")
                         .setDescription(`Enter the song name or URL to play a song\n\nYou can also type \`${prefix}command <Parameters>\``)
                         .addField(`Commands`, musiccmds.join(", "))
                         .addField(`Reactions`, `${emoji.msg.rewind} Rewind 20 seconds\n${emoji.msg.forward} Forward 20 seconds\n${emoji.msg.pause_resume} Pause/Resume\n${emoji.msg.stop} Stop Track\n${emoji.msg.previous_track} Play previous\n`, true)
@@ -98,15 +98,14 @@ module.exports = {
                       let embed2 = new MessageEmbed()
                         .setColor(ee.color)
                         .setFooter(ee.footertext, ee.footericon)
-                        .setTitle("Lava Music | Music Queue")
+                        .setTitle("MUSICO | Music Queue")
                         .setDescription(`Empty\nJoin a voice channel and queue songs by name or url in here.`)
-                        .setImage("https://cdn.discordapp.com/attachments/840204280652890183/840561772825018438/standard_2.gif")
                       let embed3 = new MessageEmbed()
                         .setColor(ee.color)
                         .setFooter(ee.footertext, ee.footericon)
-                        .setTitle("Lava Music | Currently no song is playing!")
+                        .setTitle("MUSICO | Currently no song is playing!")
                         .setDescription(`Join a voice channel and enter a song name or url to play.\n[Invite MUSICO](https://discord.com/api/oauth2/authorize?client_id=838090972109340723&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3D838090972109340723%26permissions%3D2184703296%26scope%3Dbot&scope=bot) • [Support Server](https://discord.gg/cupqErmBgt)`)
-                        .setImage("https://cdn.discordapp.com/attachments/840204280652890183/840544620256690186/standard_1.gif")
+                        .setImage("https://cdn.discordapp.com/attachments/840204280652890183/840561772825018438/standard_2.gif")
                       //send a temp message
                       channel3.send(new MessageEmbed().setColor(ee.color).setDescription("Setting Up..")).then(msg => {
                         //react with embed 1
