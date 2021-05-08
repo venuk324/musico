@@ -55,8 +55,7 @@ module.exports = {
         .addField("\u200b", "\u200b")
         .addField("⚙️ SERVER Commands used:", `>>> \`${guild.commands} Commands\` used in\n**this** Server`, true)
         .addField("🎵 SERVER Songs played:", `>>> \`${guild.songs} Songs\` played in\n**this** Server`, true)
-        .addField("📰 GLOBAL Premium list:", `>>> \`${guilds.length} Guilds\`\n\`${users.length} Users\`\n having Premium`, true)
-        .setImage("https://cdn.discordapp.com/attachments/752548978259787806/820014471556759601/ezgif-1-2d764d377842.gif")
+        .setImage("https://cdn.discordapp.com/attachments/840204280652890183/840561772825018438/standard_2.gif")
         .setTitle(`💿 The Stats of ${client.user.username}`)
       );
     } catch (e) {
@@ -70,12 +69,3 @@ module.exports = {
     }
   }
 }
-/**
- * @INFO
- * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
- * @INFO
- * Work for Milrato Development | https://milrato.eu
- * @INFO
- * Please mention Him / Milrato Development, when using this Code!
- * @INFO
- */

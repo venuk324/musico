@@ -10,7 +10,7 @@ module.exports = {
   aliases: ["musicsettings"],
   cooldown: 10,
   usage: "settings",
-  description: "Shows you the current settings, like Premium, which commands are on DJ ONLY, the DJ ROLES and BOT CHANNELS ....",
+  description: "Shows you the current settings, like  which commands are on DJ ONLY, the DJ ROLES and BOT CHANNELS ....",
   run: async (client, message, args, cmduser, text, prefix) => {
     try {
       //these lines creates the string for all botchannels
@@ -65,7 +65,6 @@ module.exports = {
         }))
         .addField(`${emoji.msg.bot} Bot Channels`, leftb.substr(0, leftb.length - 3).substr(0, 1024), true)
         .addField(`${emoji.msg.dj} DJ Roles`, leftd.substr(0, leftb.length - 3).substr(0, 1024), true)
-        .addField(`${emoji.msg.premium} Guild Premium`, `${gpremium ? (gpremium.enabled ? `${emoji.msg.enabled} Enabled` : `${emoji.msg.disabled} Disabled\nDm to enable:\n> ${ownerstringarray.substr(0, ownerstringarray.length)}`.substr(0, 1020)) : `${emoji.msg.disabled} Disabled`}`, true)
         .addField(`${emoji.msg.setup} Setup`, `VoiceChannel: ${db.voicechannel != 0 ? message.guild.channels.cache.get(db.voicechannel).name  : `${emoji.msg.ERROR} Disabled`}\nTextChannel: ${db.textchannel != 0 ? message.guild.channels.cache.get(db.textchannel).name  : `${emoji.msg.disabled} Disabled`}`, true)
         .addField(`${emoji.msg.dj} DJ-Only-Commands`, leftdj.substr(0, leftdj.length - 3).substr(0, 1024), true)
       )
@@ -80,12 +79,4 @@ module.exports = {
     }
   },
 };
-/**
- * @INFO
- * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
- * @INFO
- * Work for Milrato Development | https://milrato.eu
- * @INFO
- * Please mention Him / Milrato Development, when using this Code!
- * @INFO
- */
+

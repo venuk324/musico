@@ -39,7 +39,7 @@ module.exports = {
         } catch {}
       }
       //create a new Cateogry
-      message.guild.channels.create("Lava Music - Requests", {
+      message.guild.channels.create("MUSICO - Requests", {
           type: 'category',
           permissionOverwrites: [{
             id: message.guild.id,
@@ -100,12 +100,13 @@ module.exports = {
                         .setFooter(ee.footertext, ee.footericon)
                         .setTitle("Lava Music | Music Queue")
                         .setDescription(`Empty\nJoin a voice channel and queue songs by name or url in here.`)
+                        .setImage("https://cdn.discordapp.com/attachments/840204280652890183/840561772825018438/standard_2.gif")
                       let embed3 = new MessageEmbed()
                         .setColor(ee.color)
                         .setFooter(ee.footertext, ee.footericon)
                         .setTitle("Lava Music | Currently no song is playing!")
-                        .setDescription(`Join a voice channel and enter a song name or url to play.\n[Invite Lava Music](https://lava.milrato.eu) • [Support Server](https://discord.com/invite/wvCp7q88G3)`)
-                        .setImage("https://cdn.discordapp.com/attachments/754700756170440774/812443980293603329/lavamusic.gif")
+                        .setDescription(`Join a voice channel and enter a song name or url to play.\n[Invite MUSICO](https://discord.com/api/oauth2/authorize?client_id=838090972109340723&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3D838090972109340723%26permissions%3D2184703296%26scope%3Dbot&scope=bot) • [Support Server](https://discord.gg/cupqErmBgt)`)
+                        .setImage("https://cdn.discordapp.com/attachments/840204280652890183/840544620256690186/standard_1.gif")
                       //send a temp message
                       channel3.send(new MessageEmbed().setColor(ee.color).setDescription("Setting Up..")).then(msg => {
                         //react with embed 1
@@ -185,12 +186,3 @@ module.exports = {
     }
   },
 };
-/**
- * @INFO
- * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
- * @INFO
- * Work for Milrato Development | https://milrato.eu
- * @INFO
- * Please mention Him / Milrato Development, when using this Code!
- * @INFO
- */

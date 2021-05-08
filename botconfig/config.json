@@ -40,8 +40,8 @@
       "600357723695218688"
    ],
    "status": {
-      "text": "MUSIC",
-      "type": "LISTENING",
+      "text": "!HELP",
+      "type": "STREAMING",
       "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
       "url": ""
    }

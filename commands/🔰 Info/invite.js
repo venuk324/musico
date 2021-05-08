@@ -17,8 +17,8 @@ module.exports = {
         .setColor(ee.color)
         .setTitle(":heart: Thanks for inviting me!")
         .setFooter(ee.footertext, ee.footericon)
-        .setURL("https://discord.com/api/oauth2/authorize?client_id=742672021422342165&permissions=8&scope=bot")
-        .setDescription("[Click here](https://discord.com/api/oauth2/authorize?client_id=742672021422342165&permissions=8&scope=bot)")
+        .setURL("")
+        .setDescription("[Click here](https://discord.com/api/oauth2/authorize?client_id=838090972109340723&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3D838090972109340723%26permissions%3D2184703296%26scope%3Dbot&scope=bot)")
       );
     } catch (e) {
       console.log(String(e.stack).bgRed)
@@ -31,12 +31,3 @@ module.exports = {
     }
   }
 }
-/**
- * @INFO
- * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
- * @INFO
- * Work for Milrato Development | https://milrato.eu
- * @INFO
- * Please mention Him / Milrato Development, when using this Code!
- * @INFO
- */
